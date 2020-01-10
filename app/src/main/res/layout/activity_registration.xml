@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#009688"
+        >
+        <!-- button for info and id name = btnlogo1  -->
+        <Button
+            android:id="@+id/btnlogo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_round1"
+            android:text="H.M"
+            android:textColor="#000"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <!-- Textview for "patient name" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text=" Patient Name :  "
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <!-- Edittext for "patient name" and id: textview -->
+        <EditText
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <!-- Textview for "Phone number" and id: -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text=" Phone Number : "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <!-- Edittext for "phone number" and id: -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <!-- Textview for "area " and id: -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text=" Area : "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <!-- Edittext for "area" and id:  -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <!-- Edittext for "password" and id: -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text=" Password : "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <!-- Edittext for "password" and id:  -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <!-- Here is a button for confirm and id: btnone -->
+        <Button
+            android:id="@+id/btnone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_another"
+            android:layout_marginTop="40dp"
+            android:text="  Confirm  "
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <!-- textview for "back to login page" use as button and id: btnback -->
+        <TextView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text=" Already Registered ? Back to login "
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

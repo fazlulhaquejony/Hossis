@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginpage">
+    <!-- This is a comment here we declare the layout vertical orentation,
+            margin 35dp
+            loginpage xml
+            -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_round1"
+            android:text="H.M"
+            android:textColor="#000"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <!-- This is a comment here we declare the textview for user ID-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="100dp"
+            android:text=" User ID.  "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <!-- This is a comment here we declare the edittext for getting user ID-->
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <!-- This is a comment here we declare the textview for password-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text=" Password "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <!-- This is a comment here we declare the edittext for getting password-->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <!-- This is a comment here we declare a new linear layout for two toggle button in horizontal margin 35dp -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <!-- This is a comment here we declare the toggle button for Doctor -->
+            <ToggleButton
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="ToggleButton"
+                android:textOff="Doctor"
+                android:textOn="On"
+                app:layout_constraintEnd_toStartOf="@+id/toggleButton2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- This is a comment here we declare the toggle button for Patient -->
+            <ToggleButton
+                android:id="@+id/second"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="ToggleButton"
+                android:textOff="Patient"
+                android:textOn="On"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <!-- This is a comment here we declare the button to enter the page this button is cutomized for round-->
+        <Button
+            android:id="@+id/btnflogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_round"
+            android:text="  Login  "
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <!-- This is a comment here we declare the button for those users who are not register yet -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+            <!-- This is a comment here textview act like button
+            here textview id is btnsecond-->
+            <TextView
+                android:id="@+id/btnreg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" Not register yet ? "
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

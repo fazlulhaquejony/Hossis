@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.serialapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loginpage"></activity>
+        <activity android:name=".wrong" />
+        <activity android:name=".patientdetails" />
+        <activity android:name=".info" />
+        <activity android:name=".bookingserialgrid" />
+        <activity android:name=".homepage" />
+        <activity android:name=".Registration" />
+    </application>
+
+</manifest>

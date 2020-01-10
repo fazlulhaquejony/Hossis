@@ -1,0 +1,32 @@
+Date 8 january 2020
+Suddenely problem created in the login page .java file. It was happened in the line of 38,39,43,44,45,49,50.
+
+In the java class find view by id is not working properly.
+But this project is fine in another ide. 
+
+There is total 7 xml file and 8 java file.
+
+xml file names are:
+1.activity_bookingserialgrid
+2.activity_homepage.xml
+3.activity_info.xml
+4.activity_loginpage.xml
+5.activity_patientdetails.xml
+6.activity_registration.xml
+7.activity_wrong.xml
+
+java files name are:
+1.bookingserialgrid.java
+2.homepage.java
+3.ImageAdapter.java
+4.info.java
+5.loginpage.java
+6.patientdetails.java
+7.Registration.java
+8.wrong.java
+
+a sample video is added here in the "Video" file.
+
+last edited by : Prottoy
+last edited date: 9.1.2020
+

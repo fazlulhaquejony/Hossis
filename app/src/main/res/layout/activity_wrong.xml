@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:background="#009688"
+    tools:context=".wrong">
+    <!-- Button for info  -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_round1"
+        android:text="H.M"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <!-- Textview for showing a message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Wrong password or you may not fullfill the fields properly.
+Please registered yourself. Thank you. "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+    <!-- textview work as button for back to main page and id: btnstart1 -->
+    <TextView
+        android:id="@+id/btnstart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text=" Back to main page . "
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+</LinearLayout>
