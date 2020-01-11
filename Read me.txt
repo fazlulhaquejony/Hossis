@@ -1,4 +1,4 @@
-#Date 8 january 2020
+## Date 8 january 2020
 Suddenely problem created in the login page .java file. It was happened in the line of 38,39,43,44,45,49,50.
 
 In the java class find view by id is not working properly.
